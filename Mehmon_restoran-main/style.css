@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #f3e9dc;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    font-size: 285px;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer_text2 {
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+a{
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.f_text_min {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.f_text_min a {
+    background-color: #f3e9dc; /* светлый фон по умолчанию */
+    color: #333; /* цвет текста */
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.f_text_min a:hover {
+    background-color: #e0d2b8; /* более тёмный оттенок при наведении */
+}
+
+
+.footer2 {
+    background-color: rgb(192, 133, 82);
+    height: 96vh;
+    background-position: 0 0, 30px 30px;
+    background-image: radial-gradient(rgb(0, 0, 0) 1px, transparent 1px), radial-gradient(rgb(0, 0, 0) 1px, rgb(192, 133, 82) 1px);
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+    border-radius: 0;
+    padding-left: 250px;
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2_text1 {
+    font-size: 50px;
+    font-family: "Elsie", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 100px;
+
+}
+
+.footer2_text2 {
+    font-size: 20px;
+    font-family: "Space Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    color: #fff;
+    margin: 50px 200px 0 0;
+}
+
+.page1 {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_div {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+}
+
+
+.img_block {
+    height: 480px;
+    width: 480px;
+    margin: 15px;
+}
+
+.img1 {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.img_text {
+    font-family: "Space Mono", monospace;
+    color: rgb(243, 233, 220);
+    font-size: 20px;
+}
+
+.img_text1 {
+    margin-top: 10px;
+    font-family: "Space Mono", monospace;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.page2 {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.icon {
+    padding: 0px;
+    gap: 5px;
+    transform: scale(0.8);
+    /* Уменьшение до 50% от исходного размера */
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 100vw;
+
+}
+
+.page2_container_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    color: white;
+    font-family: "Elsie", serif;
+    background-color: #000000;
+    color: #fff
+}
+
+.page2_text p {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.page2_text1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    font-family: "Space Mono", monospace;
+}
+
+.page3 {
+    background-color: rgb(0, 0, 0);
+    height: 75vh;
+    background-position: 0 0, 30px 30px;
+    background-image: radial-gradient(rgb(192, 133, 82) 1px, transparent 1px), radial-gradient(rgb(192, 133, 82) 1px, rgb(0, 0, 0) 1px);
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+    border-radius: 0;
+    padding-left: 250px;
+}
+
+
+.page3_text p {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+    font-family: "Elsie", serif;
+    color: rgb(218, 180, 157);
+    margin: 40px;
+}
+
+.page3_text1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    font-family: "Space Mono", monospace;
+    color: #fff;
+    margin: 40px;
+}
+
+.page4{
+    background-color: #f3e9dc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.img_txt {
+    font-family: "Space Mono", monospace;
+    color: rgb(137, 87, 55);
+    font-size: 20px;
+}
+
+.img_txt1 {
+    margin-top: 10px;
+    font-family: "Space Mono", monospace;
+
+    font-size: 17px;
+}
+
+.img2 {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    filter: sepia(0.9) contrast(1.1) brightness(0.9) saturate(0.7);
+}
+
+
+.page4_container_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    color: white;
+    font-family: "Elsie", serif;
+    background-color: #000000;
+    color: rgb(192, 133, 82);
+}
+
+.page4_text p {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.page4_text1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    font-family: "Space Mono", monospace;
+    color: rgb(218, 180, 157);
+}
+
+.page6 {
+    background-color: rgb(0, 0, 0);
+    height: 75vh;
+    background-position: 0 0, 30px 30px;
+    background-image: radial-gradient(rgb(192, 133, 82) 1px, transparent 1px), radial-gradient(rgb(192, 133, 82) 1px, rgb(0, 0, 0) 1px);
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+    border-radius: 0;
+    padding-left: 250px;
+}
+
+
+.page6_text p {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+    font-family: "Elsie", serif;
+    color: rgb(192, 133, 82);
+    margin: 40px;
+}
+
+.page6_text1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    font-family: "Space Mono", monospace;
+    color: rgb(218, 180, 157);
+    margin: 40px;
+}
+
+footer{
+    background-color: #000000;
+    font-family: "Space Mono", monospace;
+    color: rgb(218, 180, 157);
+    text-align: center;
+}
+
+.logo_icon{
+    margin: 10px;
+}
+
+
+
+.languade_image{
+    width: 32px;
+    border-radius: 50%;
+}
+
+    @media (min-with<1200px) {
+        
+    }
